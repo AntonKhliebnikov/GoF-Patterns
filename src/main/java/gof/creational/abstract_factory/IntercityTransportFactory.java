@@ -9,6 +9,6 @@ public class IntercityTransportFactory implements TransportFactory{
 
     @Override
     public CargoTransport createCargoTransport() {
-        return new Truck();
+        return new Trail();
     }
 }
