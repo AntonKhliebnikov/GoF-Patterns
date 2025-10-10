@@ -7,6 +7,7 @@ public class NewOrder implements OrderState {
         this.order = order;
     }
 
+
     @Override
     public void pay() {
         System.out.println("Оплата получена!");
